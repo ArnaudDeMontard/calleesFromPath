@@ -10,8 +10,6 @@ $in_o:=$1
 
 If ($in_o.recursif=Null:C1517)
 	$in_o.recursif:=0
-	  //Else 
-	  //$in_o.recursif:=$in_o.recursif+1
 End if 
 If ($in_o.recursifMax=Null:C1517)
 	$in_o.recursifMax:=3
