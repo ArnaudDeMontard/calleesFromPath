@@ -5,14 +5,6 @@ C_OBJECT:C1216($1;$in_o)
 
 C_LONGINT:C283($i_l;$start_l;$pos_l;$len_l)
 
-If (False:C215)  //exemples d'appel
-	  //  //METHOD Get path ( typeMéthode {; laTable}{; nomObjet{; nomObjetForm}}{; *} ) 
-	  //$chemint_t:="shiva_partagesWindowsVerif_srv"  //appel en partant d'une méthode
-	  //$chemint_t:=METHOD Get path(Path database method;"onStartup")  //méthode base
-	  //$chemint_t:=METHOD Get path(Path table form;[DSN_ETABLISSEMENT];"T51entree")  //méthode form
-	  //$result_o:=Doa_methodesAppelees (New object("chemin";$chemint_t))
-End if 
-
 $out_o:=New object:C1471
 $in_o:=$1
 
