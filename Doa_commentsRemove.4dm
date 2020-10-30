@@ -1,7 +1,7 @@
   //Doa_commentsRemove (code_t) -> txt
   //$0 : code $1 sans commentaires 
   //  indentations conservées
-  //  nombre de ligne en sortie inchangé (théoriquement, car y'a bug…)
+  //  nombre de ligne en sortie inchangé (théoriquement, y'a bug…)
   //  mais à faire pour les comments v18 /* */
 
   //µ Arnaud * 10/09/2020 * debug regex commentaire monoligne, ajout à basicStuff
@@ -40,6 +40,6 @@ If ((Num(Application version)>=1800))  //pas avant la v18
 	  //#TODO remettre le nombre de retours supprimés pour préserver le nbre de lignes
 End if 
 
-  //ASSERT(Str_count ($1;"\r";"*")=Str_count ($code_t;"\r";"*");Current method name+" nbre de lignes changé !")
+ASSERT(Str_count ($1;"\r";"*")=Str_count ($code_t;"\r";"*");Current method name+" number of lines is changed!")
 
 $0:=$code_t
