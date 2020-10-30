@@ -25,8 +25,6 @@ $code_t:=$1
 
   //commentaires monoligne //...
 $rx_t:="  //([^\r]+)?\r"  //tout ce qui est entre "  //" et le 1er retour rencontré
-  //#commentaire en fin de méthode non suivi de retour :
-  // il faut peut-être ajouter "$" comme fin alternative
 While (Match regex($rx_t;$code_t;1;$pos_l;$len_l))
 	$code_t:=Delete string($code_t;$pos_l;$len_l-1)  //on laisse le retour
 End while 
