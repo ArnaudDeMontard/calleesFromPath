@@ -4,7 +4,7 @@
   //  nombre de ligne en sortie inchangé (théoriquement, y'a bug…)
   //  mais à faire pour les comments v18 /* */
 
-  //µ Arnaud * 10/09/2020 * debug regex commentaire monoligne, ajout à basicStuff
+  //µ Arnaud * 10/09/2020 * debug regex commentaire monoligne
   //µ Arnaud * 15/08/2020 * adapté 4d version < v18
   //© Arnaud * 13/08/2020 21:02:54
 
